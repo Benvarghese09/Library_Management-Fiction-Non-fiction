@@ -1,0 +1,120 @@
+[34m09:58:33.786[main] INFO  c.a.l.fiction.service.Application - Starting Application on LAPTOP-N9NNG75B with PID 22228 (C:\Users\User\Desktop\fiction.service\fiction.service\target\classes started by User in C:\Users\User\Desktop\fiction.service)
+[0;39m
+[34m09:58:33.790[main] INFO  c.a.l.fiction.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[31m09:58:33.899[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m09:58:34.536[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m
+[34m09:58:34.537[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+[0;39m
+[34m09:58:34.587[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 1 MongoDB repository interfaces.
+[0;39m
+[34m09:58:35.030[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+[0;39m
+[34m09:58:35.036[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+[0;39m
+[34m09:58:35.037[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m09:58:35.037[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m09:58:35.108[main] INFO  o.a.c.c.C.[.[localhost].[/books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m09:58:35.108[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1262 ms
+[0;39m
+[34m09:58:35.229[main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+[0;39m
+[34m09:58:35.311[cluster-ClusterId{value='653747f3d035236e5ecdc30a', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:115}] to localhost:27017
+[0;39m
+[34m09:58:35.316[cluster-ClusterId{value='653747f3d035236e5ecdc30a', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3139800}
+[0;39m
+[34m09:58:35.484[main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:116}] to localhost:27017
+[0;39m
+[34m09:58:36.013[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m09:58:36.164[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+[0;39m
+[34m09:58:36.201[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path '/books'
+[0;39m
+[34m09:58:36.442[main] INFO  c.a.l.fiction.service.Application - Started Application in 3.09 seconds (JVM running for 3.443)
+[0;39m
+[34m09:58:44.053[http-nio-8001-exec-1] INFO  o.a.c.c.C.[.[localhost].[/books] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m09:58:44.053[http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m09:58:44.063[http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+[0;39m
+[39m09:58:44.167[http-nio-8001-exec-1] DEBUG o.s.data.mongodb.core.MongoTemplate - Inserting Document containing fields: [bookName, authorName, publicationYear, bookRating, publisherName, bookDescription, bookPrice, _class] in collection: fictionBooks
+[0;39m
+[31m10:01:15.539[http-nio-8001-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'authorName' is not present]
+[0;39m
+[34m10:01:40.389[SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m10:01:40.393[SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:116}] to localhost:27017 because the pool has been closed.
+[0;39m
+[34m10:01:43.770[main] INFO  c.a.l.fiction.service.Application - Starting Application on LAPTOP-N9NNG75B with PID 2200 (C:\Users\User\Desktop\fiction.service\fiction.service\target\classes started by User in C:\Users\User\Desktop\fiction.service)
+[0;39m
+[34m10:01:43.773[main] INFO  c.a.l.fiction.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[31m10:01:43.857[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m10:01:44.479[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m
+[34m10:01:44.479[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+[0;39m
+[34m10:01:44.538[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54ms. Found 1 MongoDB repository interfaces.
+[0;39m
+[34m10:01:45.033[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+[0;39m
+[34m10:01:45.038[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+[0;39m
+[34m10:01:45.038[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m10:01:45.039[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m10:01:45.112[main] INFO  o.a.c.c.C.[.[localhost].[/books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m10:01:45.112[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1292 ms
+[0;39m
+[34m10:01:45.214[main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+[0;39m
+[34m10:01:45.253[cluster-ClusterId{value='653748b1dd78fa245969649f', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:117}] to localhost:27017
+[0;39m
+[34m10:01:45.262[cluster-ClusterId{value='653748b1dd78fa245969649f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2553600}
+[0;39m
+[34m10:01:45.418[main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:118}] to localhost:27017
+[0;39m
+[34m10:01:45.998[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m10:01:46.188[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+[0;39m
+[34m10:01:46.224[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path '/books'
+[0;39m
+[34m10:01:46.403[main] INFO  c.a.l.fiction.service.Application - Started Application in 2.987 seconds (JVM running for 3.279)
+[0;39m
+[34m10:01:50.520[http-nio-8001-exec-2] INFO  o.a.c.c.C.[.[localhost].[/books] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m10:01:50.520[http-nio-8001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m10:01:50.524[http-nio-8001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[0;39m
+[39m10:01:50.563[http-nio-8001-exec-2] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "bookName" : "Eleven Minutes"} fields: Document{{}} for class: class com.arabbank.librarymanagement.fiction.service.model.entity.FictionBooksEntity in collection: fictionBooks
+[0;39m
+[39m10:01:58.568[http-nio-8001-exec-3] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "publisherName" : "Penguin Publications"} fields: Document{{}} for class: class com.arabbank.librarymanagement.fiction.service.model.entity.FictionBooksEntity in collection: fictionBooks
+[0;39m
+[39m10:02:13.909[http-nio-8001-exec-4] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: {} fields: Document{{}} for class: class com.arabbank.librarymanagement.fiction.service.model.entity.FictionBooksEntity in collection: fictionBooks
+[0;39m
+[39m10:03:02.477[http-nio-8001-exec-5] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "authorName" : "Paulo Coelho"} fields: Document{{}} for class: class com.arabbank.librarymanagement.fiction.service.model.entity.FictionBooksEntity in collection: fictionBooks
+[0;39m
+[39m10:03:21.511[http-nio-8001-exec-6] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "authorName" : "Paulo Coelho"} fields: Document{{}} for class: class com.arabbank.librarymanagement.fiction.service.model.entity.FictionBooksEntity in collection: fictionBooks
+[0;39m
+[39m10:03:33.162[http-nio-8001-exec-7] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "bookName" : "Eleven Minutes", "publisherName" : "Penguin Publications"} fields: Document{{}} for class: class com.arabbank.librarymanagement.fiction.service.model.entity.FictionBooksEntity in collection: fictionBooks
+[0;39m
+[39m10:03:36.189[http-nio-8001-exec-8] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "publisherName" : "Penguin Publications"} fields: Document{{}} for class: class com.arabbank.librarymanagement.fiction.service.model.entity.FictionBooksEntity in collection: fictionBooks
+[0;39m
+[39m10:03:53.899[http-nio-8001-exec-9] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "bookName" : "The Alchemist", "publisherName" : "Penguin Publications"} fields: Document{{}} for class: class com.arabbank.librarymanagement.fiction.service.model.entity.FictionBooksEntity in collection: fictionBooks
+[0;39m
+[34m17:09:00.935[SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m17:09:00.946[SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:118}] to localhost:27017 because the pool has been closed.
+[0;39m
