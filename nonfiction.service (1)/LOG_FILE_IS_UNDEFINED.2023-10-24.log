@@ -1,0 +1,184 @@
+[34m09:57:04.545[main] INFO  c.a.l.nonfiction.service.Application - Starting Application using Java 18 with PID 10852 (C:\Users\User\Desktop\nonfiction.service (1)\nonfiction.service\target\classes started by User in C:\Users\User\Desktop\nonfiction.service (1))
+[0;39m
+[34m09:57:04.548[main] INFO  c.a.l.nonfiction.service.Application - No active profile set, falling back to 1 default profile: "default"
+[0;39m
+[34m09:57:05.183[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+[0;39m
+[34m09:57:05.183[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+[0;39m
+[34m09:57:05.227[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 1 MongoDB repository interfaces.
+[0;39m
+[34m09:57:05.666[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8002 (http)
+[0;39m
+[34m09:57:05.673[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
+[0;39m
+[34m09:57:05.675[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m09:57:05.675[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+[0;39m
+[34m09:57:05.761[main] INFO  o.a.c.c.C.[.[localhost].[/books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m09:57:05.761[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1161 ms
+[0;39m
+[34m09:57:05.976[main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.9.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/18+36-2087"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@55b5cd2b, com.mongodb.Jep395RecordCodecProvider@40bb4f87]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+[0;39m
+[34m09:57:05.993[cluster-ClusterId{value='65374799ed896c7c2ea737c8', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=16243800}
+[0;39m
+[34m09:57:06.699[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
+[0;39m
+[34m09:57:06.727[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8002 (http) with context path '/books'
+[0;39m
+[34m09:57:06.735[main] INFO  c.a.l.nonfiction.service.Application - Started Application in 2.7 seconds (process running for 3.221)
+[0;39m
+[34m09:58:18.955[http-nio-8002-exec-2] INFO  o.a.c.c.C.[.[localhost].[/books] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m09:58:18.955[http-nio-8002-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m09:58:18.956[http-nio-8002-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[0;39m
+[39m09:58:19.105[http-nio-8002-exec-2] DEBUG o.s.data.mongodb.core.MongoTemplate - Inserting Document containing fields: [bookName, authorName, publicationYear, bookRating, publisherName, bookDescription, bookPrice, _class] in collection: nonFictionBooks
+[0;39m
+[31m10:01:00.900[http-nio-8002-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'authorName' for method parameter type String is not present]
+[0;39m
+[34m10:04:24.772[main] INFO  c.a.l.nonfiction.service.Application - Starting Application using Java 18 with PID 22652 (C:\Users\User\Desktop\nonfiction.service (1)\nonfiction.service\target\classes started by User in C:\Users\User\Desktop\nonfiction.service (1))
+[0;39m
+[34m10:04:24.775[main] INFO  c.a.l.nonfiction.service.Application - No active profile set, falling back to 1 default profile: "default"
+[0;39m
+[34m10:04:25.293[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+[0;39m
+[34m10:04:25.294[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+[0;39m
+[34m10:04:25.343[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 1 MongoDB repository interfaces.
+[0;39m
+[34m10:04:25.786[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8002 (http)
+[0;39m
+[34m10:04:25.792[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
+[0;39m
+[34m10:04:25.793[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m10:04:25.794[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+[0;39m
+[34m10:04:25.873[main] INFO  o.a.c.c.C.[.[localhost].[/books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m10:04:25.874[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1053 ms
+[0;39m
+[34m10:04:26.074[main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.9.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/18+36-2087"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@7645f03e, com.mongodb.Jep395RecordCodecProvider@158e9f6e]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+[0;39m
+[34m10:04:26.090[cluster-ClusterId{value='6537495269ab600f6deafabf', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=15676300}
+[0;39m
+[34m10:04:26.701[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
+[0;39m
+[34m10:04:26.735[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8002 (http) with context path '/books'
+[0;39m
+[34m10:04:26.746[main] INFO  c.a.l.nonfiction.service.Application - Started Application in 2.428 seconds (process running for 2.731)
+[0;39m
+[34m10:04:36.418[http-nio-8002-exec-2] INFO  o.a.c.c.C.[.[localhost].[/books] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m10:04:36.418[http-nio-8002-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m10:04:36.419[http-nio-8002-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[0;39m
+[39m10:04:36.457[http-nio-8002-exec-2] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "bookName" : "The Alchemist", "publisherName" : "Penguin Publications"} fields: Document{{}} for class: class com.arabbank.librarymanagement.nonfiction.service.model.entity.NonFictionBooksEntity in collection: fictionBooks
+[0;39m
+[39m10:04:42.023[http-nio-8002-exec-3] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "bookName" : "The Alchemist"} fields: Document{{}} for class: class com.arabbank.librarymanagement.nonfiction.service.model.entity.NonFictionBooksEntity in collection: fictionBooks
+[0;39m
+[39m10:04:45.997[http-nio-8002-exec-4] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "publisherName" : "Penguin Publications"} fields: Document{{}} for class: class com.arabbank.librarymanagement.nonfiction.service.model.entity.NonFictionBooksEntity in collection: fictionBooks
+[0;39m
+[39m10:05:09.381[http-nio-8002-exec-5] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "bookName" : "Eleven Minutes"} fields: Document{{}} for class: class com.arabbank.librarymanagement.nonfiction.service.model.entity.NonFictionBooksEntity in collection: fictionBooks
+[0;39m
+[34m10:05:34.099[main] INFO  c.a.l.nonfiction.service.Application - Starting Application using Java 18 with PID 18852 (C:\Users\User\Desktop\nonfiction.service (1)\nonfiction.service\target\classes started by User in C:\Users\User\Desktop\nonfiction.service (1))
+[0;39m
+[34m10:05:34.101[main] INFO  c.a.l.nonfiction.service.Application - No active profile set, falling back to 1 default profile: "default"
+[0;39m
+[34m10:05:34.624[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+[0;39m
+[34m10:05:34.626[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+[0;39m
+[34m10:05:34.670[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 1 MongoDB repository interfaces.
+[0;39m
+[34m10:05:35.094[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8002 (http)
+[0;39m
+[34m10:05:35.099[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
+[0;39m
+[34m10:05:35.101[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m10:05:35.101[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+[0;39m
+[34m10:05:35.174[main] INFO  o.a.c.c.C.[.[localhost].[/books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m10:05:35.174[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1026 ms
+[0;39m
+[34m10:05:35.323[main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.9.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/18+36-2087"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@7645f03e, com.mongodb.Jep395RecordCodecProvider@158e9f6e]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+[0;39m
+[34m10:05:35.347[cluster-ClusterId{value='653749972be9775d0086f90e', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22688700}
+[0;39m
+[34m10:05:35.887[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
+[0;39m
+[34m10:05:35.905[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8002 (http) with context path '/books'
+[0;39m
+[34m10:05:35.911[main] INFO  c.a.l.nonfiction.service.Application - Started Application in 2.277 seconds (process running for 2.599)
+[0;39m
+[34m10:05:38.492[http-nio-8002-exec-1] INFO  o.a.c.c.C.[.[localhost].[/books] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m10:05:38.492[http-nio-8002-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m10:05:38.493[http-nio-8002-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[0;39m
+[39m10:05:38.532[http-nio-8002-exec-1] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "bookName" : "Eleven Minutes"} fields: Document{{}} for class: class com.arabbank.librarymanagement.nonfiction.service.model.entity.NonFictionBooksEntity in collection: fictionBooks
+[0;39m
+[39m10:06:44.600[http-nio-8002-exec-10] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "bookName" : "Eleven Minutes"} fields: Document{{}} for class: class com.arabbank.librarymanagement.nonfiction.service.model.entity.NonFictionBooksEntity in collection: fictionBooks
+[0;39m
+[39m10:06:51.150[http-nio-8002-exec-5] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "publisherName" : "Penguin Publications"} fields: Document{{}} for class: class com.arabbank.librarymanagement.nonfiction.service.model.entity.NonFictionBooksEntity in collection: fictionBooks
+[0;39m
+[39m10:07:12.800[http-nio-8002-exec-7] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "publisherName" : "Penguin Publications"} fields: Document{{}} for class: class com.arabbank.librarymanagement.nonfiction.service.model.entity.NonFictionBooksEntity in collection: fictionBooks
+[0;39m
+[39m10:07:17.234[http-nio-8002-exec-9] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "bookName" : "Eleven Minutes"} fields: Document{{}} for class: class com.arabbank.librarymanagement.nonfiction.service.model.entity.NonFictionBooksEntity in collection: fictionBooks
+[0;39m
+[34m10:09:06.890[main] INFO  c.a.l.nonfiction.service.Application - Starting Application using Java 18 with PID 3896 (C:\Users\User\Desktop\nonfiction.service (1)\nonfiction.service\target\classes started by User in C:\Users\User\Desktop\nonfiction.service (1))
+[0;39m
+[34m10:09:06.893[main] INFO  c.a.l.nonfiction.service.Application - No active profile set, falling back to 1 default profile: "default"
+[0;39m
+[34m10:09:07.406[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+[0;39m
+[34m10:09:07.407[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+[0;39m
+[34m10:09:07.452[main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 1 MongoDB repository interfaces.
+[0;39m
+[34m10:09:07.900[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8002 (http)
+[0;39m
+[34m10:09:07.906[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
+[0;39m
+[34m10:09:07.909[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m10:09:07.909[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+[0;39m
+[34m10:09:07.985[main] INFO  o.a.c.c.C.[.[localhost].[/books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m10:09:07.985[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1036 ms
+[0;39m
+[34m10:09:08.138[main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.9.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/18+36-2087"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@6ec63f8, com.mongodb.Jep395RecordCodecProvider@66223d94]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+[0;39m
+[34m10:09:08.158[cluster-ClusterId{value='65374a6c0d95d7640b10493d', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19502800}
+[0;39m
+[34m10:09:08.665[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
+[0;39m
+[34m10:09:08.698[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8002 (http) with context path '/books'
+[0;39m
+[34m10:09:08.707[main] INFO  c.a.l.nonfiction.service.Application - Started Application in 2.277 seconds (process running for 2.577)
+[0;39m
+[34m10:09:12.829[http-nio-8002-exec-1] INFO  o.a.c.c.C.[.[localhost].[/books] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m10:09:12.829[http-nio-8002-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m10:09:12.830[http-nio-8002-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[0;39m
+[39m10:09:12.867[http-nio-8002-exec-1] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "bookName" : "Eleven Minutes"} fields: Document{{}} for class: class com.arabbank.librarymanagement.nonfiction.service.model.entity.NonFictionBooksEntity in collection: nonFictionBooks
+[0;39m
+[39m10:09:23.961[http-nio-8002-exec-3] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "publisherName" : "Penguin Publications"} fields: Document{{}} for class: class com.arabbank.librarymanagement.nonfiction.service.model.entity.NonFictionBooksEntity in collection: nonFictionBooks
+[0;39m
+[39m10:09:36.840[http-nio-8002-exec-4] DEBUG o.s.data.mongodb.core.MongoTemplate - find using query: { "publisherName" : "New Book Publications"} fields: Document{{}} for class: class com.arabbank.librarymanagement.nonfiction.service.model.entity.NonFictionBooksEntity in collection: nonFictionBooks
+[0;39m
+[39m10:11:31.750[http-nio-8002-exec-7] DEBUG o.s.data.mongodb.core.MongoTemplate - Inserting Document containing fields: [bookName, authorName, publicationYear, bookRating, publisherName, bookDescription, bookPrice, _class] in collection: nonFictionBooks
+[0;39m
+[39m10:21:42.262[http-nio-8002-exec-10] DEBUG o.s.data.mongodb.core.MongoTemplate - Inserting Document containing fields: [bookName, authorName, publicationYear, bookRating, publisherName, bookDescription, bookPrice, _class] in collection: nonFictionBooks
+[0;39m
