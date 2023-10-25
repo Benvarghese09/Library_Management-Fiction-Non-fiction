@@ -1,0 +1,1496 @@
+[31m12:06:45.366[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:06:45.617[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:06:46.498[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ccbf359f-4c55-34b0-8c12-ed9032de77fa
+[0;39m
+[34m12:06:46.863[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:06:46.868[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:06:46.868[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:06:46.868[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:06:47.010[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:06:47.010[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1379 ms
+[0;39m
+[31m12:06:47.044[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksController': Unsatisfied dependency expressed through field 'availableBooksService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[0;39m
+[34m12:06:47.044[main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[0;39m
+[34m12:06:47.053[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m
+[1;31m12:06:47.214[main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field availableBooksService in com.arabbank.librarymanagement.availablebooks.service.controller.AvailableBooksController required a bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' in your configuration.
+
+[0;39m
+[31m12:08:18.114[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:08:18.346[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:08:18.992[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ccbf359f-4c55-34b0-8c12-ed9032de77fa
+[0;39m
+[34m12:08:19.271[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:08:19.276[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:08:19.276[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:08:19.277[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:08:19.410[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:08:19.411[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1046 ms
+[0;39m
+[31m12:08:19.447[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksController': Unsatisfied dependency expressed through field 'availableBooksService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[0;39m
+[34m12:08:19.448[main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[0;39m
+[34m12:08:19.459[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m
+[1;31m12:08:19.565[main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field availableBooksService in com.arabbank.librarymanagement.availablebooks.service.controller.AvailableBooksController required a bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' in your configuration.
+
+[0;39m
+[31m12:10:57.764[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:10:58.004[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:10:58.900[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ccbf359f-4c55-34b0-8c12-ed9032de77fa
+[0;39m
+[34m12:10:59.262[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:10:59.267[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:10:59.268[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:10:59.268[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:10:59.398[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:10:59.398[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1379 ms
+[0;39m
+[31m12:10:59.443[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksController': Unsatisfied dependency expressed through field 'availableBooksService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[0;39m
+[34m12:10:59.444[main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[0;39m
+[34m12:10:59.453[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m
+[1;31m12:10:59.602[main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field availableBooksService in com.arabbank.librarymanagement.availablebooks.service.controller.AvailableBooksController required a bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' in your configuration.
+
+[0;39m
+[31m12:12:27.023[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:12:27.275[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:12:28.214[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ccbf359f-4c55-34b0-8c12-ed9032de77fa
+[0;39m
+[34m12:12:28.557[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:12:28.566[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:12:28.566[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:12:28.566[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:12:28.706[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:12:28.706[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1399 ms
+[0;39m
+[31m12:12:28.746[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksController': Unsatisfied dependency expressed through field 'availableBooksService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[0;39m
+[34m12:12:28.747[main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[0;39m
+[34m12:12:28.757[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m
+[1;31m12:12:28.925[main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field availableBooksService in com.arabbank.librarymanagement.availablebooks.service.controller.AvailableBooksController required a bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' in your configuration.
+
+[0;39m
+[31m12:16:51.481[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:16:51.739[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:16:52.602[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ccbf359f-4c55-34b0-8c12-ed9032de77fa
+[0;39m
+[34m12:16:52.949[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:16:52.954[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:16:52.955[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:16:52.955[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:16:53.097[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:16:53.097[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1339 ms
+[0;39m
+[31m12:16:53.131[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksController': Unsatisfied dependency expressed through field 'availableBooksService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[0;39m
+[34m12:16:53.132[main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[0;39m
+[34m12:16:53.140[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m
+[1;31m12:16:53.285[main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field availableBooksService in com.arabbank.librarymanagement.availablebooks.service.controller.AvailableBooksController required a bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' in your configuration.
+
+[0;39m
+[31m12:18:43.263[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:18:43.531[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:18:44.433[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ccbf359f-4c55-34b0-8c12-ed9032de77fa
+[0;39m
+[34m12:18:44.903[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:18:44.908[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:18:44.908[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:18:44.908[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:18:45.058[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:18:45.058[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1508 ms
+[0;39m
+[31m12:18:45.116[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksController': Unsatisfied dependency expressed through field 'availableBooksService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[0;39m
+[34m12:18:45.117[main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[0;39m
+[34m12:18:45.126[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m
+[1;31m12:18:45.290[main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field availableBooksService in com.arabbank.librarymanagement.availablebooks.service.controller.AvailableBooksController required a bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' in your configuration.
+
+[0;39m
+[31m12:21:29.553[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:21:29.867[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:21:30.743[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ccbf359f-4c55-34b0-8c12-ed9032de77fa
+[0;39m
+[34m12:21:31.075[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:21:31.080[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:21:31.080[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:21:31.080[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:21:31.220[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:21:31.220[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1333 ms
+[0;39m
+[31m12:21:31.259[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksController': Unsatisfied dependency expressed through field 'availableBooksService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[0;39m
+[34m12:21:31.260[main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[0;39m
+[34m12:21:31.270[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m
+[1;31m12:21:31.426[main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field availableBooksService in com.arabbank.librarymanagement.availablebooks.service.controller.AvailableBooksController required a bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService' in your configuration.
+
+[0;39m
+[31m12:24:19.344[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:24:19.608[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:24:20.509[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5f1bc440-0080-3339-bb5b-c1563877e3ad
+[0;39m
+[34m12:24:20.859[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:24:20.863[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:24:20.864[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:24:20.864[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:24:21.010[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:24:21.010[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1382 ms
+[0;39m
+[31m12:24:21.355[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksController': Unsatisfied dependency expressed through field 'availableBooksService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksService': Unsatisfied dependency expressed through field 'nonFictionBookService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nonFictionBookService': Unsatisfied dependency expressed through field 'nonFictionBookClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.arabbank.librarymanagement.availablebooks.service.feignclient.NonFictionBookClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: Method NonFictionBookClient#getBooks(String,String,String) not annotated with HTTP method type (ex. GET, POST)
+Warnings:
+- 
+[0;39m
+[34m12:24:21.362[main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[0;39m
+[34m12:24:21.378[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m
+[1;31m12:24:21.394[main] ERROR o.s.boot.SpringApplication - Application run failed
+[0;39m
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksController': Unsatisfied dependency expressed through field 'availableBooksService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksService': Unsatisfied dependency expressed through field 'nonFictionBookService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nonFictionBookService': Unsatisfied dependency expressed through field 'nonFictionBookClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.arabbank.librarymanagement.availablebooks.service.feignclient.NonFictionBookClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: Method NonFictionBookClient#getBooks(String,String,String) not annotated with HTTP method type (ex. GET, POST)
+Warnings:
+- 
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.arabbank.librarymanagement.availablebooks.service.Application.main(Application.java:12)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksService': Unsatisfied dependency expressed through field 'nonFictionBookService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nonFictionBookService': Unsatisfied dependency expressed through field 'nonFictionBookClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.arabbank.librarymanagement.availablebooks.service.feignclient.NonFictionBookClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: Method NonFictionBookClient#getBooks(String,String,String) not annotated with HTTP method type (ex. GET, POST)
+Warnings:
+- 
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nonFictionBookService': Unsatisfied dependency expressed through field 'nonFictionBookClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.arabbank.librarymanagement.availablebooks.service.feignclient.NonFictionBookClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: Method NonFictionBookClient#getBooks(String,String,String) not annotated with HTTP method type (ex. GET, POST)
+Warnings:
+- 
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.arabbank.librarymanagement.availablebooks.service.feignclient.NonFictionBookClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: Method NonFictionBookClient#getBooks(String,String,String) not annotated with HTTP method type (ex. GET, POST)
+Warnings:
+- 
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 46 common frames omitted
+Caused by: java.lang.IllegalStateException: Method NonFictionBookClient#getBooks(String,String,String) not annotated with HTTP method type (ex. GET, POST)
+Warnings:
+- 
+	at feign.Util.checkState(Util.java:129)
+	at feign.Contract$BaseContract.parseAndValidateMetadata(Contract.java:100)
+	at org.springframework.cloud.openfeign.support.SpringMvcContract.parseAndValidateMetadata(SpringMvcContract.java:207)
+	at feign.Contract$BaseContract.parseAndValidateMetadata(Contract.java:62)
+	at feign.ReflectiveFeign$ParseHandlersByName.apply(ReflectiveFeign.java:151)
+	at feign.ReflectiveFeign.newInstance(ReflectiveFeign.java:49)
+	at feign.Feign$Builder.target(Feign.java:269)
+	at org.springframework.cloud.openfeign.HystrixTargeter.target(HystrixTargeter.java:38)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:418)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:361)
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:246)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1230)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1172)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	... 54 common frames omitted
+[31m12:30:15.890[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:30:16.108[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:30:16.780[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5f1bc440-0080-3339-bb5b-c1563877e3ad
+[0;39m
+[34m12:30:17.048[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:30:17.053[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:30:17.053[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:30:17.053[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:30:17.182[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:30:17.183[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1056 ms
+[0;39m
+[31m12:30:17.384[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksController': Unsatisfied dependency expressed through field 'availableBooksService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksService': Unsatisfied dependency expressed through field 'nonFictionBookService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nonFictionBookService': Unsatisfied dependency expressed through field 'nonFictionBookClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.arabbank.librarymanagement.availablebooks.service.feignclient.NonFictionBookClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: Method NonFictionBookClient#getBooks(String,String,String) not annotated with HTTP method type (ex. GET, POST)
+Warnings:
+- 
+[0;39m
+[34m12:30:17.386[main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[0;39m
+[34m12:30:17.394[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m
+[1;31m12:30:17.398[main] ERROR o.s.boot.SpringApplication - Application run failed
+[0;39m
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksController': Unsatisfied dependency expressed through field 'availableBooksService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksService': Unsatisfied dependency expressed through field 'nonFictionBookService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nonFictionBookService': Unsatisfied dependency expressed through field 'nonFictionBookClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.arabbank.librarymanagement.availablebooks.service.feignclient.NonFictionBookClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: Method NonFictionBookClient#getBooks(String,String,String) not annotated with HTTP method type (ex. GET, POST)
+Warnings:
+- 
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.arabbank.librarymanagement.availablebooks.service.Application.main(Application.java:12)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'availableBooksService': Unsatisfied dependency expressed through field 'nonFictionBookService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nonFictionBookService': Unsatisfied dependency expressed through field 'nonFictionBookClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.arabbank.librarymanagement.availablebooks.service.feignclient.NonFictionBookClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: Method NonFictionBookClient#getBooks(String,String,String) not annotated with HTTP method type (ex. GET, POST)
+Warnings:
+- 
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nonFictionBookService': Unsatisfied dependency expressed through field 'nonFictionBookClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.arabbank.librarymanagement.availablebooks.service.feignclient.NonFictionBookClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: Method NonFictionBookClient#getBooks(String,String,String) not annotated with HTTP method type (ex. GET, POST)
+Warnings:
+- 
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.arabbank.librarymanagement.availablebooks.service.feignclient.NonFictionBookClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: Method NonFictionBookClient#getBooks(String,String,String) not annotated with HTTP method type (ex. GET, POST)
+Warnings:
+- 
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 46 common frames omitted
+Caused by: java.lang.IllegalStateException: Method NonFictionBookClient#getBooks(String,String,String) not annotated with HTTP method type (ex. GET, POST)
+Warnings:
+- 
+	at feign.Util.checkState(Util.java:129)
+	at feign.Contract$BaseContract.parseAndValidateMetadata(Contract.java:100)
+	at org.springframework.cloud.openfeign.support.SpringMvcContract.parseAndValidateMetadata(SpringMvcContract.java:207)
+	at feign.Contract$BaseContract.parseAndValidateMetadata(Contract.java:62)
+	at feign.ReflectiveFeign$ParseHandlersByName.apply(ReflectiveFeign.java:151)
+	at feign.ReflectiveFeign.newInstance(ReflectiveFeign.java:49)
+	at feign.Feign$Builder.target(Feign.java:269)
+	at org.springframework.cloud.openfeign.HystrixTargeter.target(HystrixTargeter.java:38)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:418)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:361)
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:246)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1230)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1172)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	... 54 common frames omitted
+[31m12:33:35.961[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:33:36.231[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:33:37.185[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5f1bc440-0080-3339-bb5b-c1563877e3ad
+[0;39m
+[34m12:33:37.536[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:33:37.541[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:33:37.542[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:33:37.542[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:33:37.675[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:33:37.676[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1428 ms
+[0;39m
+[31m12:33:38.543[main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+[0;39m
+[31m12:33:38.548[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:33:38.548[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[31m12:33:38.556[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:33:38.556[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[34m12:33:38.783[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m12:33:39.243[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[0;39m
+[31m12:33:39.278[main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+[0;39m
+[34m12:33:39.280[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m12:33:39.290[main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:33:39.290[main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[0;39m
+[34m12:33:39.307[main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:33:39.309[main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:33:39.315[main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m
+[1;31m12:33:39.319[main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[0;39m
+[31m12:33:59.695[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:33:59.957[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:34:00.902[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5f1bc440-0080-3339-bb5b-c1563877e3ad
+[0;39m
+[34m12:34:01.260[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:34:01.265[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:34:01.265[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:34:01.265[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:34:01.404[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:34:01.405[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1433 ms
+[0;39m
+[31m12:34:02.251[main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+[0;39m
+[31m12:34:02.254[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:34:02.255[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[31m12:34:02.262[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:34:02.262[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[34m12:34:02.491[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m12:34:02.936[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:34:02.992[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/available-books'
+[0;39m
+[34m12:34:03.553[main] INFO  c.a.l.a.service.Application - Started Application in 4.361 seconds (JVM running for 4.683)
+[0;39m
+[34m12:36:44.784[SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m
+[31m12:36:46.624[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:36:46.904[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:36:47.825[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5f1bc440-0080-3339-bb5b-c1563877e3ad
+[0;39m
+[34m12:36:48.156[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:36:48.160[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:36:48.161[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:36:48.161[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:36:48.299[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:36:48.299[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1377 ms
+[0;39m
+[31m12:36:49.241[main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+[0;39m
+[31m12:36:49.247[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:36:49.247[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[31m12:36:49.257[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:36:49.257[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[34m12:36:49.489[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m12:36:49.971[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:36:50.025[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/available-books'
+[0;39m
+[34m12:36:50.597[main] INFO  c.a.l.a.service.Application - Started Application in 4.572 seconds (JVM running for 4.91)
+[0;39m
+[34m12:38:46.152[http-nio-8080-exec-8] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m12:38:46.153[http-nio-8080-exec-8] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m12:38:46.159[http-nio-8080-exec-8] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+[0;39m
+[31m12:39:23.996[http-nio-8080-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'bookName' is not present]
+[0;39m
+[31m12:39:26.535[http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'bookName' is not present]
+[0;39m
+[31m12:39:59.705[http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'bookName' is not present]
+[0;39m
+[34m12:40:39.892[SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m
+[31m12:40:42.783[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:40:43.041[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:40:43.933[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5f1bc440-0080-3339-bb5b-c1563877e3ad
+[0;39m
+[34m12:40:44.287[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:40:44.292[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:40:44.292[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:40:44.292[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:40:44.421[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:40:44.421[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1362 ms
+[0;39m
+[31m12:40:45.192[main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+[0;39m
+[31m12:40:45.196[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:40:45.196[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[31m12:40:45.203[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:40:45.203[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[34m12:40:45.414[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m12:40:45.877[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:40:45.934[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/available-books'
+[0;39m
+[34m12:40:46.513[main] INFO  c.a.l.a.service.Application - Started Application in 4.283 seconds (JVM running for 4.609)
+[0;39m
+[34m12:40:51.444[http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m12:40:51.444[http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m12:40:51.449[http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[0;39m
+[1;31m12:41:01.505[http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/available-books] threw exception [Request processing failed; nested exception is feign.RetryableException: Connect timed out executing GET http://172.16.4.115:8001/books/book?authorName=Paulo%20Coelho] with root cause
+[0;39m
+java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:543)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)
+	at feign.Client$Default.convertResponse(Client.java:108)
+	at feign.Client$Default.execute(Client.java:104)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:119)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)
+	at jdk.proxy2/jdk.proxy2.$Proxy77.getBooks(Unknown Source)
+	at com.arabbank.librarymanagement.availablebooks.service.service.FictionBookService.FictionBooks(FictionBookService.java:19)
+	at com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService.getBooks(AvailableBooksService.java:14)
+	at com.arabbank.librarymanagement.availablebooks.service.controller.AvailableBooksController.getAvailableBooks(AvailableBooksController.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[1;31m12:42:45.659[http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/available-books] threw exception [Request processing failed; nested exception is feign.RetryableException: Connect timed out executing GET http://172.16.4.115:8001/books/book?bookName=Eleven%20Minutes&authorName=Paulo%20Coelho&publisherName=New%20Book%20Publications] with root cause
+[0;39m
+java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:543)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)
+	at feign.Client$Default.convertResponse(Client.java:108)
+	at feign.Client$Default.execute(Client.java:104)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:119)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)
+	at jdk.proxy2/jdk.proxy2.$Proxy77.getBooks(Unknown Source)
+	at com.arabbank.librarymanagement.availablebooks.service.service.FictionBookService.FictionBooks(FictionBookService.java:19)
+	at com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService.getBooks(AvailableBooksService.java:14)
+	at com.arabbank.librarymanagement.availablebooks.service.controller.AvailableBooksController.getAvailableBooks(AvailableBooksController.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[34m12:44:36.826[SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m
+[31m12:44:38.581[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:44:38.840[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:44:39.784[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5f1bc440-0080-3339-bb5b-c1563877e3ad
+[0;39m
+[34m12:44:40.112[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:44:40.117[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:44:40.117[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:44:40.117[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:44:40.263[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:44:40.263[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1404 ms
+[0;39m
+[31m12:44:41.081[main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+[0;39m
+[31m12:44:41.085[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:44:41.085[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[31m12:44:41.093[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:44:41.093[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[34m12:44:41.250[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m12:44:41.705[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:44:41.757[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/available-books'
+[0;39m
+[34m12:44:42.264[main] INFO  c.a.l.a.service.Application - Started Application in 4.242 seconds (JVM running for 4.6)
+[0;39m
+[34m12:44:44.462[http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m12:44:44.462[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m12:44:44.465[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[0;39m
+[1;31m12:44:54.524[http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/available-books] threw exception [Request processing failed; nested exception is feign.RetryableException: Connect timed out executing GET http://172.16.4.115:8001/books/book?bookName=Eleven%20Minutes&authorName=Paulo%20Coelho&publisherName=New%20Book%20Publications] with root cause
+[0;39m
+java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:543)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)
+	at feign.Client$Default.convertResponse(Client.java:108)
+	at feign.Client$Default.execute(Client.java:104)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:119)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)
+	at jdk.proxy2/jdk.proxy2.$Proxy77.getBooks(Unknown Source)
+	at com.arabbank.librarymanagement.availablebooks.service.service.FictionBookService.FictionBooks(FictionBookService.java:19)
+	at com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService.getBooks(AvailableBooksService.java:14)
+	at com.arabbank.librarymanagement.availablebooks.service.controller.AvailableBooksController.getAvailableBooks(AvailableBooksController.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[34m12:48:17.622[SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m
+[31m12:48:19.417[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:48:19.678[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:48:20.732[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5f1bc440-0080-3339-bb5b-c1563877e3ad
+[0;39m
+[34m12:48:21.119[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:48:21.125[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:48:21.125[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:48:21.125[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:48:21.290[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:48:21.290[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1589 ms
+[0;39m
+[31m12:48:22.131[main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+[0;39m
+[31m12:48:22.135[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:48:22.135[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[31m12:48:22.142[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:48:22.142[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[34m12:48:22.397[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m12:48:22.817[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:48:22.864[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/available-books'
+[0;39m
+[34m12:48:23.379[main] INFO  c.a.l.a.service.Application - Started Application in 4.537 seconds (JVM running for 4.866)
+[0;39m
+[34m12:48:27.491[http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m12:48:27.491[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m12:48:27.495[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[0;39m
+[1;31m12:48:27.801[http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/available-books] threw exception [Request processing failed; nested exception is feign.FeignException$NotFound: [404] during [GET] to [http://localhost:8002/books/hotel?bookName=Eleven%20Minutes&authorName=Paulo%20Coelho&publisherName=New%20Book%20Publications] [NonFictionBookClient#getBooks(String,String,String)]: [{"timestamp":"2023-10-25T07:18:27.774+00:00","status":404,"error":"Not Found","message":"","path":"/books/hotel"}]] with root cause
+[0;39m
+feign.FeignException$NotFound: [404] during [GET] to [http://localhost:8002/books/hotel?bookName=Eleven%20Minutes&authorName=Paulo%20Coelho&publisherName=New%20Book%20Publications] [NonFictionBookClient#getBooks(String,String,String)]: [{"timestamp":"2023-10-25T07:18:27.774+00:00","status":404,"error":"Not Found","message":"","path":"/books/hotel"}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:201)
+	at feign.FeignException.errorStatus(FeignException.java:177)
+	at feign.FeignException.errorStatus(FeignException.java:169)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.AsyncResponseHandler.handleResponse(AsyncResponseHandler.java:96)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:138)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)
+	at jdk.proxy2/jdk.proxy2.$Proxy79.getBooks(Unknown Source)
+	at com.arabbank.librarymanagement.availablebooks.service.service.NonFictionBookService.NonFictionBooks(NonFictionBookService.java:21)
+	at com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService.getBooks(AvailableBooksService.java:15)
+	at com.arabbank.librarymanagement.availablebooks.service.controller.AvailableBooksController.getAvailableBooks(AvailableBooksController.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[34m12:51:52.965[SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m
+[31m12:51:54.819[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:51:55.082[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:51:56.031[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5f1bc440-0080-3339-bb5b-c1563877e3ad
+[0;39m
+[34m12:51:56.416[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:51:56.421[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:51:56.421[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:51:56.421[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:51:56.583[main] INFO  o.a.c.c.C.[.[localhost].[/books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:51:56.584[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1484 ms
+[0;39m
+[31m12:51:57.507[main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+[0;39m
+[31m12:51:57.511[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:51:57.511[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[31m12:51:57.518[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:51:57.518[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[34m12:51:57.779[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m12:51:58.268[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:51:58.329[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/books'
+[0;39m
+[34m12:51:58.854[main] INFO  c.a.l.a.service.Application - Started Application in 4.641 seconds (JVM running for 4.977)
+[0;39m
+[34m12:53:10.860[http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[localhost].[/books] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m12:53:10.860[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m12:53:10.865[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[0;39m
+[1;31m12:53:11.216[http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/books] threw exception [Request processing failed; nested exception is feign.FeignException$NotFound: [404] during [GET] to [http://localhost:8002/books/hotel?bookName=Eleven%20Minutes&authorName=Paulo%20Coelho&publisherName=New%20Book%20Publications] [NonFictionBookClient#getBooks(String,String,String)]: [{"timestamp":"2023-10-25T07:23:11.172+00:00","status":404,"error":"Not Found","message":"","path":"/books/hotel"}]] with root cause
+[0;39m
+feign.FeignException$NotFound: [404] during [GET] to [http://localhost:8002/books/hotel?bookName=Eleven%20Minutes&authorName=Paulo%20Coelho&publisherName=New%20Book%20Publications] [NonFictionBookClient#getBooks(String,String,String)]: [{"timestamp":"2023-10-25T07:23:11.172+00:00","status":404,"error":"Not Found","message":"","path":"/books/hotel"}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:201)
+	at feign.FeignException.errorStatus(FeignException.java:177)
+	at feign.FeignException.errorStatus(FeignException.java:169)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.AsyncResponseHandler.handleResponse(AsyncResponseHandler.java:96)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:138)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)
+	at jdk.proxy2/jdk.proxy2.$Proxy79.getBooks(Unknown Source)
+	at com.arabbank.librarymanagement.availablebooks.service.service.NonFictionBookService.NonFictionBooks(NonFictionBookService.java:21)
+	at com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService.getBooks(AvailableBooksService.java:15)
+	at com.arabbank.librarymanagement.availablebooks.service.controller.AvailableBooksController.getAvailableBooks(AvailableBooksController.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[34m12:54:15.724[SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m
+[31m12:54:17.584[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:54:17.835[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:54:18.780[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5f1bc440-0080-3339-bb5b-c1563877e3ad
+[0;39m
+[34m12:54:19.130[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:54:19.134[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:54:19.135[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:54:19.135[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:54:19.283[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:54:19.283[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1431 ms
+[0;39m
+[31m12:54:20.200[main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+[0;39m
+[31m12:54:20.205[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:54:20.205[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[31m12:54:20.215[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:54:20.216[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[34m12:54:20.448[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m12:54:21.010[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:54:21.065[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/available-books'
+[0;39m
+[34m12:54:21.673[main] INFO  c.a.l.a.service.Application - Started Application in 4.662 seconds (JVM running for 5.007)
+[0;39m
+[34m12:54:25.554[http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m12:54:25.554[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m12:54:25.559[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[0;39m
+[1;31m12:54:25.656[http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/available-books] threw exception [Request processing failed; nested exception is feign.FeignException$NotFound: [404] during [GET] to [http://localhost:8002/books/hotel?bookName=Eleven%20Minutes&authorName=Paulo%20Coelho&publisherName=New%20Book%20Publications] [NonFictionBookClient#getBooks(String,String,String)]: [{"timestamp":"2023-10-25T07:24:25.648+00:00","status":404,"error":"Not Found","message":"","path":"/books/hotel"}]] with root cause
+[0;39m
+feign.FeignException$NotFound: [404] during [GET] to [http://localhost:8002/books/hotel?bookName=Eleven%20Minutes&authorName=Paulo%20Coelho&publisherName=New%20Book%20Publications] [NonFictionBookClient#getBooks(String,String,String)]: [{"timestamp":"2023-10-25T07:24:25.648+00:00","status":404,"error":"Not Found","message":"","path":"/books/hotel"}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:201)
+	at feign.FeignException.errorStatus(FeignException.java:177)
+	at feign.FeignException.errorStatus(FeignException.java:169)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.AsyncResponseHandler.handleResponse(AsyncResponseHandler.java:96)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:138)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)
+	at jdk.proxy2/jdk.proxy2.$Proxy79.getBooks(Unknown Source)
+	at com.arabbank.librarymanagement.availablebooks.service.service.NonFictionBookService.NonFictionBooks(NonFictionBookService.java:21)
+	at com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService.getBooks(AvailableBooksService.java:15)
+	at com.arabbank.librarymanagement.availablebooks.service.controller.AvailableBooksController.getAvailableBooks(AvailableBooksController.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[34m12:55:51.147[SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m
+[31m12:55:54.474[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:55:54.698[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:55:55.336[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5f1bc440-0080-3339-bb5b-c1563877e3ad
+[0;39m
+[34m12:55:55.607[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:55:55.612[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:55:55.612[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:55:55.612[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:55:55.764[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:55:55.765[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1049 ms
+[0;39m
+[31m12:55:56.356[main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+[0;39m
+[31m12:55:56.359[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:55:56.359[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[31m12:55:56.363[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:55:56.364[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[34m12:55:56.485[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m12:55:56.929[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:55:56.974[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/available-books'
+[0;39m
+[34m12:55:57.508[main] INFO  c.a.l.a.service.Application - Started Application in 3.546 seconds (JVM running for 3.874)
+[0;39m
+[34m12:56:07.695[http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m12:56:07.695[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m12:56:07.700[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[0;39m
+[1;31m12:56:07.822[http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/available-books] threw exception [Request processing failed; nested exception is feign.FeignException$NotFound: [404] during [GET] to [http://localhost:8002/books/hotel?bookName=Eleven%20Minutes&authorName=Paulo%20Coelho&publisherName=New%20Book%20Publications] [NonFictionBookClient#getBooks(String,String,String)]: [{"timestamp":"2023-10-25T07:26:07.814+00:00","status":404,"error":"Not Found","message":"","path":"/books/hotel"}]] with root cause
+[0;39m
+feign.FeignException$NotFound: [404] during [GET] to [http://localhost:8002/books/hotel?bookName=Eleven%20Minutes&authorName=Paulo%20Coelho&publisherName=New%20Book%20Publications] [NonFictionBookClient#getBooks(String,String,String)]: [{"timestamp":"2023-10-25T07:26:07.814+00:00","status":404,"error":"Not Found","message":"","path":"/books/hotel"}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:201)
+	at feign.FeignException.errorStatus(FeignException.java:177)
+	at feign.FeignException.errorStatus(FeignException.java:169)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.AsyncResponseHandler.handleResponse(AsyncResponseHandler.java:96)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:138)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100)
+	at jdk.proxy2/jdk.proxy2.$Proxy79.getBooks(Unknown Source)
+	at com.arabbank.librarymanagement.availablebooks.service.service.NonFictionBookService.NonFictionBooks(NonFictionBookService.java:21)
+	at com.arabbank.librarymanagement.availablebooks.service.service.AvailableBooksService.getBooks(AvailableBooksService.java:15)
+	at com.arabbank.librarymanagement.availablebooks.service.controller.AvailableBooksController.getAvailableBooks(AvailableBooksController.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[34m12:58:41.286[SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[0;39m
+[31m12:58:44.546[background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[0;39m
+[34m12:58:44.783[main] INFO  c.a.l.a.service.Application - No active profile set, falling back to default profiles: default
+[0;39m
+[34m12:58:45.645[main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5f1bc440-0080-3339-bb5b-c1563877e3ad
+[0;39m
+[34m12:58:45.964[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[0;39m
+[34m12:58:45.970[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:58:45.970[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[0;39m
+[34m12:58:45.970[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[0;39m
+[34m12:58:46.121[main] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring embedded WebApplicationContext
+[0;39m
+[34m12:58:46.121[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1320 ms
+[0;39m
+[31m12:58:47.047[main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+[0;39m
+[31m12:58:47.053[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:58:47.053[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[31m12:58:47.062[main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[0;39m
+[34m12:58:47.062[main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[0;39m
+[34m12:58:47.292[main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[0;39m
+[34m12:58:47.751[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[0;39m
+[34m12:58:47.794[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/available-books'
+[0;39m
+[34m12:58:48.315[main] INFO  c.a.l.a.service.Application - Started Application in 4.287 seconds (JVM running for 4.607)
+[0;39m
+[34m12:59:00.600[http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/available-books] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m
+[34m12:59:00.601[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[0;39m
+[34m12:59:00.605[http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[0;39m
